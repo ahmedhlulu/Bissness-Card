@@ -11,6 +11,7 @@
 		E24B864B28412DA200529700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B864A28412DA200529700 /* ContentView.swift */; };
 		E24B864D28412DA200529700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24B864C28412DA200529700 /* Assets.xcassets */; };
 		E24B865028412DA200529700 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24B864F28412DA200529700 /* Preview Assets.xcassets */; };
+		E24B86572841331D00529700 /* headlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B86562841331D00529700 /* headlineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E24B864A28412DA200529700 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E24B864C28412DA200529700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24B864F28412DA200529700 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E24B86562841331D00529700 /* headlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headlineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E24B864828412DA200529700 /* Bissness_CardApp.swift */,
 				E24B864A28412DA200529700 /* ContentView.swift */,
+				E24B86562841331D00529700 /* headlineView.swift */,
 				E24B864C28412DA200529700 /* Assets.xcassets */,
 				E24B864E28412DA200529700 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24B86572841331D00529700 /* headlineView.swift in Sources */,
 				E24B864B28412DA200529700 /* ContentView.swift in Sources */,
 				E24B864928412DA200529700 /* Bissness_CardApp.swift in Sources */,
 			);
@@ -273,6 +277,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +307,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
